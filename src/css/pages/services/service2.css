@@ -1,0 +1,292 @@
+.service2 {
+  color: #000;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-image: url("../../../images/background/background2.png");
+}
+.service2 .service-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 26.5px;
+  padding-top: 68px;
+}
+.service2 .service-header .service-description {
+  display: flex;
+  flex-direction: column;
+  width: 52.5%;
+  margin-left: 60px;
+}
+.service2 .service-header .service-description h1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+.service2 .service-header .service-description span {
+  color: #f00;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+.service2 .service-header .service-description p {
+  width: 70%;
+  font-size: 14px;
+  font-weight: 400;
+  margin-block-end: 0;
+}
+.service2 .service-header .aide {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 23px;
+}
+.service2 .service-header .aide .content {
+  border-radius: 142.5px;
+  background: #F00;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+}
+.service2 .service-header .aide .content .white-round {
+  width: 76px;
+  height: 76px;
+  background-color: #FFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 4px;
+}
+.service2 .service-header .aide .content .text-content {
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+  margin-left: 20px;
+  margin-right: 25px;
+}
+.service2 .service-header .aide .content .text-content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  height: 21px;
+  margin: 0;
+  padding: 0;
+}
+.service2 .service-header .aide .content .text-content span {
+  font-weight: 400;
+  font-size: 14px;
+  height: 21px;
+  margin-top: 7px;
+}
+.service2 .gestion-technique {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  background-color: #F1F1F1;
+  padding-top: 30.5px;
+  padding-bottom: 26px;
+}
+.service2 .gestion-technique .gestion-technique-card {
+  display: flex;
+  background-color: #FFF;
+  border-radius: 159.5px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
+  width: 55%;
+  padding: 5px 0px;
+  margin-right: 80px;
+}
+.service2 .gestion-technique .gestion-technique-card img {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.service2 .gestion-technique .gestion-technique-text {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin-right: 93px;
+}
+.service2 .gestion-technique .gestion-technique-text h3 {
+  color: #F00;
+  font-size: 18px;
+  font-weight: 500;
+}
+.service2 .gestion-technique .gestion-technique-text .content {
+  display: flex;
+}
+.service2 .gestion-technique .gestion-technique-text .content div {
+  margin-right: 26px;
+  display: flex;
+  flex-direction: column;
+}
+.service2 .gestion-technique .gestion-technique-text .content div span {
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.service2 .gestion-biens {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  background-color: #FFF;
+  padding-top: 30.5px;
+  padding-bottom: 26px;
+}
+.service2 .gestion-biens .gestion-biens-card {
+  display: flex;
+  background-color: #FFF;
+  border-radius: 159.5px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
+  width: 55%;
+  padding: 5px 0px;
+  margin-left: 80px;
+  margin-right: auto;
+}
+.service2 .gestion-biens .gestion-biens-card img {
+  margin-right: auto;
+  margin-left: 20px;
+}
+.service2 .gestion-biens .gestion-biens-text {
+  display: flex;
+  flex-direction: column;
+  width: 43%;
+  margin-right: 93px;
+  margin-left: 60px;
+}
+.service2 .gestion-biens .gestion-biens-text h3 {
+  color: #F00;
+  font-size: 18px;
+  font-weight: 500;
+}
+.service2 .gestion-biens .gestion-biens-text .content {
+  display: flex;
+}
+.service2 .gestion-biens .gestion-biens-text .content div {
+  margin-right: 26px;
+  display: flex;
+  flex-direction: column;
+}
+.service2 .gestion-biens .gestion-biens-text .content div span {
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.service2 .outro {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 60px;
+  margin-top: 100px;
+  margin-bottom: 105px;
+}
+.service2 .outro h1 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 57px;
+  width: 65%;
+}
+.service2 .outro .outro-left {
+  display: flex;
+  align-items: center;
+  max-width: 60%;
+  background-color: #F1F1F1;
+  border-radius: 159.5px;
+  margin-right: auto;
+  height: 184px;
+  padding-left: 70px;
+  margin-bottom: 68px;
+}
+.service2 .outro .outro-left .loop {
+  position: relative;
+  display: flex;
+  margin-left: 4px;
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+.service2 .outro .outro-left .loop img {
+  stroke-width: 2px;
+  stroke: #FFF;
+  flex-shrink: 0;
+}
+.service2 .outro .outro-left .loop .container-overlay {
+  position: absolute;
+  display: flex;
+  top: 0;
+}
+.service2 .outro .outro-left .loop .container-overlay img {
+  flex-shrink: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.service2 .outro .outro-left div {
+  margin-left: 55px;
+}
+.service2 .outro .outro-left div h3 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #F00;
+}
+.service2 .outro .outro-left div div {
+  width: 63%;
+  margin-left: 0;
+}
+.service2 .outro .outro-left div div span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+.service2 .outro .outro-right {
+  display: flex;
+  align-items: center;
+  background-color: #F1F1F1;
+  border-radius: 159.5px;
+  margin-left: auto;
+  height: 184px;
+  padding-left: 70px;
+  margin-bottom: 68px;
+  max-width: 60%;
+}
+.service2 .outro .outro-right .judge {
+  position: relative;
+  display: flex;
+  margin-left: 4px;
+  margin-top: 5px;
+  margin-bottom: 4px;
+  padding-bottom: 23px;
+}
+.service2 .outro .outro-right .judge img {
+  stroke-width: 2px;
+  stroke: #FFF;
+  flex-shrink: 0;
+  padding-left: 30px;
+}
+.service2 .outro .outro-right .judge .container-overlay {
+  position: absolute;
+  display: flex;
+  top: 0;
+}
+.service2 .outro .outro-right .judge .container-overlay img {
+  flex-shrink: 0;
+  padding-left: 10px;
+  padding-top: 23px;
+}
+.service2 .outro .outro-right div {
+  margin-left: 55px;
+}
+.service2 .outro .outro-right div h3 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #F00;
+}
+.service2 .outro .outro-right div div {
+  width: 52.6%;
+  margin-left: 0;
+}
+.service2 .outro .outro-right div div span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}

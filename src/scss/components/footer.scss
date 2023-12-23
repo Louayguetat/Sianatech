@@ -1,0 +1,126 @@
+@import '../utils/variables';
+
+.footer{
+    background-color: black;
+    width:auto;
+    min-height: 199px;
+
+    .content{
+        padding-top: 29px;
+        margin-left: 67px;
+        margin-right: 66px;
+        .main-footer{
+            display: flex;
+            align-items: center;
+            img{
+                margin-left: 20px;
+                width: 203px;
+                height: 46px;
+                flex-shrink: 0;
+            }
+    
+            .links{
+                margin-left: 280px;
+                display: flex;
+    
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 75px;
+    
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 34px; 
+                    }
+                }
+            }
+        }
+
+        .social-media{
+            display: flex;
+            align-items: center;
+            span{
+                color: rgba(235, 235, 235, 0.63);
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .icons{
+                margin-left: auto;
+                a{
+                    margin-right: 13px;
+                    &:last-child{
+                        margin:0;
+                    }
+                }
+            }
+        }
+
+        .horizontale-line {
+            height: 0px;
+            border-color: rgba(255, 255, 255, 0.28);
+            border-top: none;
+            margin-bottom: 12px;
+        }
+
+        .copyrights{
+            display: flex;
+            align-items: center;
+            span{
+                font-size: 16px;
+            }
+            .coordonnes{
+                display: flex;
+                align-items: center;
+                margin-left: auto;
+                span{
+                    border: 1px solid rgba(255, 0, 0, 0.58);
+                    background: #F00;
+                    border-radius: 17px;
+                    margin: 0px 12px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0px 17px;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+
+                    svg{
+                        margin-right: 7.27px;
+                    }
+
+                
+                    &:last-child{
+                        margin:0;
+                    }
+                }
+            }
+        }
+    }
+
+    .icon-localisation{
+        position: relative;
+        display: flex;
+        svg{
+            flex-shrink: 0;
+        }
+        .container-overlay{
+            position: absolute;
+            display: flex;
+            top: 0;
+            svg{
+                flex-shrink: 0;
+                padding-left: 3px;
+                padding-top: 3px;
+            }   
+        }
+    }
+}

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  background-color: black;
+}
+.navbar .navbar-contact {
+  display: flex;
+  align-items: center;
+  height: 41px;
+  margin-left: auto;
+  margin-right: 62px;
+}
+.navbar .navbar-contact span {
+  display: flex;
+  align-items: center;
+  margin-right: 21px;
+}
+.navbar .navbar-contact span svg {
+  margin-right: 6px;
+}
+.navbar .navbar-contact .credentials {
+  background-color: #F00;
+  border-radius: 17px;
+  border: 1px solid rgba(255, 0, 0, 0.58);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: 335px;
+  height: 35px;
+}
+.navbar .navbar-contact .credentials span {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-contact .credentials span:first-child {
+  margin-left: 19.4px;
+}
+.navbar .navbar-contact .credentials span:first-child svg {
+  margin-right: 3.04px;
+}
+.navbar .navbar-contact .credentials span:last-child {
+  margin-left: 13px;
+}
+.navbar .navbar-contact .credentials span:last-child svg {
+  margin-right: 7px;
+}
+.navbar .navbar-contact .credentials .vertical-line {
+  background-color: rgba(255, 255, 255, 0.66);
+  width: 1px;
+  height: 35px;
+  margin-left: 11px;
+  border: 1px solid rgba(255, 255, 255, 0.66);
+  border-left: none;
+}
+.navbar .navbar-content {
+  display: flex;
+  align-items: center;
+  min-height: 124px;
+  background: #FFF;
+  box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.08);
+}
+.navbar .navbar-content img {
+  width: 203px;
+  height: 46px;
+  flex-shrink: 0;
+  margin-left: 61px;
+}
+.navbar .navbar-content .links {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 62px;
+}
+.navbar .navbar-content .links .active {
+  color: #F00;
+  font-size: 14px;
+  font-weight: 700;
+}
+.navbar .navbar-content .links a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 42px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.navbar .navbar-content .links a .contact-button {
+  border-radius: 17px;
+  border: 1px solid rgba(0, 0, 0, 0.58);
+  display: flex;
+  align-items: center;
+  padding: 6px 25px 6px 30px;
+}
+.navbar .navbar-content .links a .contact-button svg {
+  margin-left: 1px;
+}
+.navbar .navbar-content .links a .contact-button:hover {
+  background-color: #F00;
+  color: white;
+  border: 1px solid #F00;
+  transition: 0.7s;
+}
+.navbar .navbar-content .links a:hover {
+  color: #F00;
+  transition: 0.5s;
+}
+.navbar .navbar-content .links .dropdown {
+  z-index: 9999;
+}
+.navbar .navbar-content .links .dropdown .dropdown-list {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 27.5%;
+  list-style-type: none;
+  background-color: #fff;
+  width: 55%;
+}
+.navbar .navbar-content .links .dropdown:hover .dropdown-list {
+  display: block;
+  background-color: transparent;
+}
+.navbar .navbar-content .links .dropdown:hover .dropdown-list div {
+  background-color: #F00;
+  padding: 0rem 0rem;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+.navbar .navbar-content .links .dropdown:hover .dropdown-list div li {
+  padding: 0.5rem 0rem;
+}
+.navbar .navbar-content .links .dropdown:hover .dropdown-list div li a {
+  color: #FFF;
+}
+.navbar .navbar-content .links .dropdown:hover .dropdown-list div li:hover a {
+  transition: 0.5s;
+  color: #000;
+}
+.navbar .icon-localisation {
+  position: relative;
+  display: flex;
+}
+.navbar .icon-localisation svg {
+  flex-shrink: 0;
+}
+.navbar .icon-localisation .container-overlay {
+  position: absolute;
+  display: flex;
+  top: 0;
+}
+.navbar .icon-localisation .container-overlay svg {
+  flex-shrink: 0;
+  padding-left: 3px;
+  padding-top: 3px;
+}

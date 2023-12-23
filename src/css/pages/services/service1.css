@@ -1,0 +1,176 @@
+.service1 {
+  color: #000;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-image: url("../../../images/background/background2.png");
+}
+.service1 .service-description {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 60px;
+  margin-bottom: 58px;
+  padding-top: 68px;
+}
+.service1 .service-description h1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+.service1 .service-description span {
+  color: #f00;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+.service1 .service-description p {
+  width: 70%;
+  font-size: 14px;
+  font-weight: 400;
+}
+.service1 .style1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #F4F4F4;
+}
+.service1 .style1 .card-left {
+  display: flex;
+  align-items: center;
+  border-radius: 159.5px;
+  width: 60%;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background: #F00;
+  color: #fff;
+  box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
+}
+.service1 .style1 .card-left h2 {
+  font-weight: 700;
+  font-size: 28px;
+  padding-left: 100px;
+}
+.service1 .style1 .card-left img {
+  margin-left: auto;
+  margin-right: 5px;
+}
+.service1 .style1 .avantage-description {
+  width: 32%;
+  display: flex;
+  margin-left: auto;
+  margin-right: 70px;
+  margin-top: 66px;
+  margin-bottom: 66px;
+}
+.service1 .style1 .avantage-description div {
+  margin-right: 20px;
+}
+.service1 .style2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.service1 .style2 .card-right {
+  display: flex;
+  align-items: center;
+  border-radius: 159.5px;
+  width: 60%;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  background: #F00;
+  color: #fff;
+  box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
+}
+.service1 .style2 .card-right h2 {
+  font-weight: 700;
+  font-size: 28px;
+  padding-right: 100px;
+}
+.service1 .style2 .card-right img {
+  margin-right: auto;
+  margin-left: 5px;
+}
+.service1 .style2 .avantage-description {
+  width: 30%;
+  display: flex;
+  margin-left: auto;
+  margin-right: 70px;
+  margin-top: 66px;
+  margin-bottom: 66px;
+}
+.service1 .style2 .avantage-description div {
+  margin-right: 20px;
+}
+.service1 .outro {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 77px;
+  padding-bottom: 46px;
+  background-color: #FFF;
+}
+.service1 .outro .outro-text {
+  width: 22%;
+  margin-left: 97px;
+}
+.service1 .outro .outro-text h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #F00;
+}
+.service1 .outro .outro-text span {
+  font-size: 15px;
+  font-weight: 400;
+}
+.service1 .outro .outro-style {
+  margin-left: auto;
+  width: 60%;
+  margin-top: 50px;
+}
+.service1 .outro .outro-style .services #service1 {
+  color: #fff;
+  background-color: #F00;
+  width: 100%;
+  margin-left: 0;
+}
+.service1 .outro .outro-style .services .service {
+  border-radius: 142.5px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  margin-bottom: 27px;
+}
+.service1 .outro .outro-style .services .service .tick {
+  position: relative;
+  display: flex;
+  height: 32px;
+  margin-left: 4px;
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+.service1 .outro .outro-style .services .service .tick svg {
+  stroke-width: 2px;
+  stroke: #FFF;
+  flex-shrink: 0;
+}
+.service1 .outro .outro-style .services .service .tick .container-overlay {
+  position: absolute;
+  display: flex;
+  top: 0;
+}
+.service1 .outro .outro-style .services .service .tick .container-overlay svg {
+  flex-shrink: 0;
+  padding-left: 6px;
+  padding-top: 6px;
+}
+.service1 .outro .outro-style .services .service span {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 30px;
+  color: #000;
+}

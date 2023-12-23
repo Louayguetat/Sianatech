@@ -1,0 +1,220 @@
+.aboutUs{
+    color: #000;
+    .description{
+        background-image: url('../../images/background/background1.png');
+
+        .description-content{
+            padding-top: 67px;
+            color: #FFF;
+            font-family: Poppins;
+            font-style: normal;
+            line-height: normal;
+            width: 40%;
+            .description-title{
+                background-color: #F00;
+                border-radius: 142.5px;
+                border-bottom-left-radius: 0;
+                border-top-left-radius: 0;
+                padding-top: 20px;
+                padding-left: 60px;
+                padding-bottom: 27px;
+                font-size: 28px;
+                font-weight: 600;
+            }
+            .description-text{
+                margin-top: 53px;
+                padding-left: 60px;
+                width: 85%;
+                span{
+                    color: #000;
+                    font-size: 21px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .expertise{
+        display: block;
+        padding-left: 60px;
+        margin-top: 119px;
+        background: #F4F4F4;
+        box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.10);
+
+        .expertise-text{
+            padding-top: 62px;
+            width: 35%;
+            h1{
+                font-size: 38px;
+                font-weight: 600;
+            }
+            span{
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+
+        .services{
+            margin-top: 26px;
+            h2{
+                font-size: 24px;
+                font-weight: 600;
+            }
+            #service1{
+                color: #fff;
+                background-color: #F00;
+                width: 100%;
+                margin-left: 0;
+            }
+
+            .service{
+                border-radius: 142.5px;
+                border-bottom-right-radius: 0px;
+                border-top-right-radius: 0px;
+                background: #fff;
+                box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+                display: flex;
+                align-items: center;
+                margin-left: 60px;
+                margin-bottom: 27px;
+
+                .tick{
+                    position: relative;
+                    display: flex;
+                    height: 32px;
+                    margin-left: 4px;
+                    margin-top: 5px;
+                    margin-bottom: 4px;
+                    svg{
+                        stroke-width: 2px;
+                        stroke: #FFF;
+                        flex-shrink: 0;
+                    }
+                    .container-overlay{
+                        position: absolute;
+                        display: flex;
+                        top: 0;
+                        svg{
+                            flex-shrink: 0;
+                            padding-left: 6px;
+                            padding-top: 6px;
+                        }   
+                    }
+                }
+
+                span{
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-left: 30px;
+                    color: #000;
+                }
+            }
+
+            &:last-child{
+                padding-bottom: 75px;
+            }
+        }
+    }
+
+    .besoin-aide{
+        display: flex;
+        align-items: center;
+        padding-left: 60px;
+        .aide-text{
+            width: 65%;
+            h2{
+                font-size: 38px;
+                font-weight: 600;
+            }
+            span{
+                font-weight: 300;
+                font-size: 18px;    
+            }
+        }
+
+        .aide{
+            margin-left: auto;
+            .content{
+                border-radius: 142.5px;
+                background: #F00;
+                box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+                display: flex;
+                align-items: center;
+                padding-right: 15px;
+                .white-round {
+                    width: 76px;
+                    height: 76px;
+                    background-color: #FFF;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 5px 4px;
+                }
+    
+                .text-content{
+                    display: flex;
+                    flex-direction: column;
+                    color: #FFF;
+                    margin-left: 20px;
+                    h3{
+                        font-size: 18px;
+                        font-weight: 700;
+                        height: 21px;
+                        margin: 0;
+                        padding: 0;
+                    }
+    
+                    span{
+                        font-weight: 400;
+                        font-size: 14px;
+                        height: 21px;
+                        margin-top: 7px;
+                    }
+                }
+            }
+        }
+    }
+
+    .engagements{
+        background-color: #000;
+        color: #fff;
+        padding-left: 60px;
+        div{
+            display: flex;
+            flex-direction: column;
+            width: 28%;
+            margin-top: 51px;
+            padding-top: 37px;
+            padding-bottom: 83px;
+            h2{
+                font-size: 38px;
+                font-weight: 600;
+            }
+            span{
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .solutions{
+        background-color: #fff;
+        padding-left: 60px;
+        div{
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            padding-bottom: 50px;
+            width: 62%;
+            h2{
+                font-size: 38px;
+                font-weight: 600;
+            }
+            span{
+                font-size: 18px;
+                font-weight: 300;
+            }
+        }
+    }
+}
