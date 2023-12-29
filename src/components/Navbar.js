@@ -15,8 +15,14 @@ const Navbar = () =>{
         });
 
         const currentLink = document.querySelector(`.links a[href='${location.pathname}']`);
-        if (currentLink) {
+        if(currentLink.id){
+            const services = document.getElementById('services')
+            services.classList.add('active')
             currentLink.classList.add('active');
+        }else{
+            if (currentLink) {
+                currentLink.classList.add('active');
+            }
         }
     }, [location.pathname]);
 
@@ -34,7 +40,7 @@ const Navbar = () =>{
                             </svg>                           
                         </div>
                     </div>
-                    16, ruouis- 98000 Monaco
+                    17 Avenue Albert II - 98000 Monaco
                 </span>
                 <div className='credentials'>
                     <span>
@@ -58,12 +64,12 @@ const Navbar = () =>{
                     <a href='/'>Acceuil</a>
                     <a href='/aboutus'>Qui sommes nous? </a>
                     <div className='dropdown'>
-                        <a>Nos services</a>
+                        <a id='services'>Nos services</a>
                         <ul className='dropdown-list'>
                             <div>
-                                <li><a href='/Maintenance_Optimisation_Installations'>Maintenance et Optimisation d'Installations</a></li>
-                                <li><a href='/Gestion_technique_locaux_Biens'>Gestion technique locaux et Biens</a></li>
-                                <li><a href='/Conseil_Audit_Technique'>Conseil et Audit Technique</a></li>
+                                <li><a href='/Maintenance_Optimisation_Installations' id='service1'>Maintenance et Optimisation d'Installations</a></li>
+                                <li><a href='/Gestion_technique_locaux_Biens' id='service2'>Gestion technique locaux et Biens</a></li>
+                                <li><a href='/Conseil_Audit_Technique' id='service3'>Conseil et Audit Technique</a></li>
                             </div>
                         </ul>
                     </div>

@@ -94,7 +94,7 @@
             a{
                 text-decoration: none;
                 color: black;
-                margin: 0px 42px;
+                margin-right: 38px;
                 font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
@@ -123,6 +123,10 @@
                     color: #F00;
                     transition: 0.5s;
                 }
+
+                &:last-child{
+                    margin: 0;
+                }
             }
             .dropdown{
                 z-index: 9999;
@@ -130,15 +134,15 @@
                     display: none;
                     position: absolute;
                     top: 0%;
-                    left: 27.5%;
+                    left: 20%;
                     list-style-type: none;
                     background-color: #fff; 
-                    width: 55%;
+                    width: auto;
                 }
 
                 &:hover{
                     .dropdown-list {
-                        display: block;
+                        display: flex;
                         background-color: transparent;
                         div{
                             background-color: #F00;
@@ -149,9 +153,10 @@
                             align-items: center;
                             border-radius: 20px;
                             li{
-                                padding: 0.5rem 0rem;
+                                padding: 0.5rem 1rem;
                                 a{
                                     color: #FFF;
+                                    margin-right: 0;
                                 }
 
                                 &:hover{

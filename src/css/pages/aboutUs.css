@@ -10,23 +10,27 @@
   font-family: Poppins;
   font-style: normal;
   line-height: normal;
-  width: 40%;
+  width: 50%;
 }
 .aboutUs .description .description-content .description-title {
   background-color: #F00;
   border-radius: 142.5px;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
-  padding-top: 20px;
+  width: 90%;
+}
+.aboutUs .description .description-content .description-title h1 {
+  padding-top: 22px;
+  padding-bottom: 25px;
   padding-left: 60px;
-  padding-bottom: 27px;
   font-size: 28px;
   font-weight: 600;
+  width: 80%;
 }
 .aboutUs .description .description-content .description-text {
   margin-top: 53px;
   padding-left: 60px;
-  width: 85%;
+  width: 69%;
 }
 .aboutUs .description .description-content .description-text span {
   color: #000;

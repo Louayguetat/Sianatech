@@ -34,7 +34,7 @@
                 font-weight: 400;
             }
     
-            button{
+            a{
                 margin-top: 60px;
                 border-radius: 26px;
                 border: none;
@@ -43,12 +43,13 @@
                 font-weight: 500;
                 font-family: Poppins;
                 font-size: 14px;
-                padding: 13px 2px 13.86px 51px;
                 display: flex;
+                justify-content: center;
                 align-items: center;
                 width: 264px;
                 height: 52px;
                 cursor: pointer;
+                text-decoration: none;
                 svg{
                     width: 25.183px;
                     height: 28.727px;
@@ -66,7 +67,7 @@
 
             #container {
                 width: 600px;
-                z-index: 9999;
+                z-index: 5;
             }
             
             #container-overlay {

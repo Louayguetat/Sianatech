@@ -183,11 +183,6 @@
   margin-left: 97px;
   padding-bottom: 59px;
 }
-.service3 .outro .outro-text h3 {
-  font-size: 18px;
-  font-weight: 500;
-  color: #F00;
-}
 .service3 .outro .outro-text span {
   font-size: 15px;
   font-weight: 400;
@@ -242,5 +237,5 @@
   font-size: 14px;
   font-weight: 500;
   margin-left: 30px;
-  width: 50%;
+  width: 100%;
 }

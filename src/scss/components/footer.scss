@@ -7,26 +7,26 @@
 
     .content{
         padding-top: 29px;
-        margin-left: 67px;
-        margin-right: 66px;
+        margin-left: 5%;
+        margin-right: 5%;
         .main-footer{
             display: flex;
             align-items: center;
             img{
-                margin-left: 20px;
+                margin-left: 1%;
                 width: 203px;
                 height: 46px;
                 flex-shrink: 0;
             }
     
             .links{
-                margin-left: 280px;
+                margin-left: 20%;
                 display: flex;
-    
+                width: 100%;
                 div{
                     display: flex;
                     flex-direction: column;
-                    margin-right: 75px;
+                    margin-right: 5%;
     
                     a{
                         text-decoration: none;
@@ -43,6 +43,7 @@
         .social-media{
             display: flex;
             align-items: center;
+            width: 100%;
             span{
                 color: rgba(235, 235, 235, 0.63);
                 font-size: 14px;
@@ -52,11 +53,13 @@
             }
 
             .icons{
+                display: flex;
                 margin-left: auto;
+                width: auto;
                 a{
                     margin-right: 13px;
                     &:last-child{
-                        margin:0;
+                        margin-right:0;
                     }
                 }
             }
@@ -118,8 +121,8 @@
             top: 0;
             svg{
                 flex-shrink: 0;
-                padding-left: 3px;
-                padding-top: 3px;
+                padding-left: 20%;
+                padding-top: 20%;
             }   
         }
     }

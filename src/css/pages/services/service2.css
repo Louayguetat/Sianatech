@@ -93,7 +93,7 @@
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
   box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
-  width: 55%;
+  width: 40%;
   padding: 5px 0px;
   margin-right: 80px;
 }
@@ -104,8 +104,9 @@
 .service2 .gestion-technique .gestion-technique-text {
   display: flex;
   flex-direction: column;
-  width: 45%;
+  width: 60%;
   margin-right: 93px;
+  margin-left: 10%;
 }
 .service2 .gestion-technique .gestion-technique-text h3 {
   color: #F00;
@@ -124,6 +125,10 @@
   padding-bottom: 20px;
   font-size: 17px;
   font-weight: 400;
+  width: 80%;
+}
+.service2 .gestion-technique .gestion-technique-text .content div span:last-child {
+  width: 85%;
 }
 .service2 .gestion-biens {
   display: flex;
@@ -140,9 +145,8 @@
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
   box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
-  width: 55%;
+  width: 40%;
   padding: 5px 0px;
-  margin-left: 80px;
   margin-right: auto;
 }
 .service2 .gestion-biens .gestion-biens-card img {
@@ -152,7 +156,7 @@
 .service2 .gestion-biens .gestion-biens-text {
   display: flex;
   flex-direction: column;
-  width: 43%;
+  width: 60%;
   margin-right: 93px;
   margin-left: 60px;
 }
@@ -173,6 +177,13 @@
   padding-bottom: 20px;
   font-size: 17px;
   font-weight: 400;
+  width: 65%;
+}
+.service2 .gestion-biens .gestion-biens-text .content div span:nth-child(2) {
+  width: 67%;
+}
+.service2 .gestion-biens .gestion-biens-text .content div span:last-child {
+  width: 68%;
 }
 .service2 .outro {
   display: flex;
@@ -195,7 +206,7 @@
   background-color: #F1F1F1;
   border-radius: 159.5px;
   margin-right: auto;
-  height: 184px;
+  height: auto;
   padding-left: 70px;
   margin-bottom: 68px;
 }
@@ -228,9 +239,11 @@
   font-weight: 500;
   font-size: 18px;
   color: #F00;
+  margin-top: 39px;
 }
 .service2 .outro .outro-left div div {
-  width: 63%;
+  width: 75%;
+  margin-bottom: 30px;
   margin-left: 0;
 }
 .service2 .outro .outro-left div div span {
@@ -244,7 +257,7 @@
   background-color: #F1F1F1;
   border-radius: 159.5px;
   margin-left: auto;
-  height: 184px;
+  height: auto;
   padding-left: 70px;
   margin-bottom: 68px;
   max-width: 60%;
@@ -280,10 +293,12 @@
   font-weight: 500;
   font-size: 18px;
   color: #F00;
+  margin-top: 39px;
 }
 .service2 .outro .outro-right div div {
   width: 52.6%;
   margin-left: 0;
+  margin-bottom: 30px;
 }
 .service2 .outro .outro-right div div span {
   font-size: 14px;

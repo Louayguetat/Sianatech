@@ -67,13 +67,11 @@
 }
 .contact .contact-form .contact-info {
   display: flex;
-  align-items: center;
   margin-top: 33px;
 }
 .contact .contact-form .contact-info .info {
   display: flex;
-  align-items: center;
-  margin-right: 65px;
+  margin-right: 20px;
 }
 .contact .contact-form .contact-info .info:last-child {
   margin-right: 0;
@@ -89,6 +87,7 @@
   font-style: normal;
   line-height: 20px;
   letter-spacing: 0.26px;
+  width: 100%;
 }
 .contact .contact-form .contact-info .info .text span {
   width: 130%;
@@ -100,6 +99,33 @@
 .contact .contact-form .contact-info .info .text span:last-child {
   color: #F00;
   font-weight: 400;
+}
+.contact .contact-form .contact-info .info .text .adresse {
+  width: 250%;
+}
+.contact .contact-form .contact-info .info .text .adresse p {
+  color: #F00;
+  width: 100%;
+  line-height: 7px;
+  font-family: Montserrat;
+  font-size: 13px;
+}
+.contact .contact-form .contact-info .info .icon-localisation {
+  position: relative;
+  display: flex;
+}
+.contact .contact-form .contact-info .info .icon-localisation svg {
+  flex-shrink: 0;
+}
+.contact .contact-form .contact-info .info .icon-localisation .container-overlay {
+  position: absolute;
+  display: flex;
+  top: 0;
+}
+.contact .contact-form .contact-info .info .icon-localisation .container-overlay svg {
+  flex-shrink: 0;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 .contact .contact-location {
   display: flex;
